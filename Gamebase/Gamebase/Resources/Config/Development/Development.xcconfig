@@ -1,0 +1,10 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_ENVIRONMENT = DEVELOPMENT
+
+API_CLIENT_ID = lttpbq4hgpui4llbp280x0vzssn6ps
+API_CLIENT_SECRET = 1oer3o381lh1ml5y3obwrzq0v07oxm
+API_CLIENT_GRANT_TYPE = client_credentials
+API_OAUTH_ROOT = id.twitch.tv/oauth2/token
+API_ROOT = api.igdb.com/v4/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameManagedObject" representedClassName="GameManagedObject" syncable="YES" codeGenerationType="class">
+        <attribute name="cover" optional="YES" attributeType="Transformable"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="screenshots" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="ScreenshotManagedObject" inverseName="game" inverseEntity="ScreenshotManagedObject"/>
+    </entity>
+    <entity name="ScreenshotManagedObject" representedClassName="ScreenshotManagedObject" syncable="YES" codeGenerationType="class">
+        <attribute name="gbimage" optional="YES" attributeType="Transformable"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GameManagedObject" inverseName="screenshots" inverseEntity="GameManagedObject"/>
+    </entity>
+    <elements>
+        <element name="GameManagedObject" positionX="-45" positionY="0" width="128" height="118"/>
+        <element name="ScreenshotManagedObject" positionX="-53.755615234375" positionY="261.3557434082031" width="128" height="73"/>
+    </elements>
+</model>
