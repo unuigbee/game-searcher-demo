@@ -1,4 +1,4 @@
-# Gamebase
+# Game Searcher
 
 A SwiftUI + Combine + Async/Await iOS demo application for consuming and presenting gaming information. Features created using MVVM + Coordinator pattern for creating and managing user journeys.
 
@@ -37,16 +37,6 @@ A SwiftUI + Combine + Async/Await iOS demo application for consuming and present
 ### TO-DO
 
 :white_large_square: Branding + Default Styles
-
-:white_large_square: Core Data Integration
-
-:white_large_square: UI Automation
-
-:white_large_square: Tab Bar Integration
-
-:white_large_square: Accessibilty
-
-:white_large_square: Performance Monitoring/Logging
 
 ### Preview
 
