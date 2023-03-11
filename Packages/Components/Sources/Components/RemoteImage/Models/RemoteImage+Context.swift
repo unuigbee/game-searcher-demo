@@ -17,7 +17,7 @@ public extension RemoteImage {
 			url: URL?,
 			enablesAnimation: Bool = true,
 			shouldDownloadImageProgressiveley: Bool = false,
-			shouldCacheImage: Bool = false,
+			shouldCacheImage: Bool = true,
 			placeholderView: (() -> PlaceholderView)? = { EmptyView() },
 			onPhase: ((RemoteImagePhase) -> Void)? = nil,
 			onProgress: ((Double) -> Void)? = nil
